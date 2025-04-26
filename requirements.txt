@@ -1,6 +1,7 @@
 numpy>=1.26.0,<2.0.0
-pandas>=1.26.0,<2.0.0  # This will allow a version of pandas that works with numpy>=1.26.0
+pandas==1.5.3
 tensorflow==2.19.0
 joblib==1.4.2
 nltk==3.9.1
 streamlit==1.44.1
+scikit-learn==1.0.2  # Si es necesario para el tf-idf
