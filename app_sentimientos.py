@@ -60,9 +60,9 @@ if st.button("Submit your comment"):
 
             # Mostrar mensaje personalizado según la predicción (en negro)
             if clases_predichas[0] == 'negative':
-                st.markdown("<h3 style='color: black;'>We're truly sorry for your experience. We will get in touch with you to improve anything that needs attention.</h3>", unsafe_allow_html=True)
+                st.markdown("<h3 style='color: grey;'>We're truly sorry for your experience. We will get in touch with you to improve anything that needs attention.</h3>", unsafe_allow_html=True)
             elif clases_predichas[0] == 'positive':
-                st.markdown("<h3 style='color: black;'>We're happy to hear your experience was good! We hope to have you flying with us again soon.</h3>", unsafe_allow_html=True)
+                st.markdown("<h3 style='color: grey;'>We're happy to hear your experience was good! We hope to have you flying with us again soon.</h3>", unsafe_allow_html=True)
             else:  # 'neutral'
                 st.markdown("<h3 style='color: grey;'>Thank you for your feedback! We are constantly working to improve our service.</h3>", unsafe_allow_html=True)
 
