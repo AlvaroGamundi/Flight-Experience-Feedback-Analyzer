@@ -64,7 +64,7 @@ if st.button("Submit your comment"):
             elif clases_predichas[0] == 'positive':
                 st.markdown("<h3 style='color: black;'>We're happy to hear your experience was good! We hope to have you flying with us again soon.</h3>", unsafe_allow_html=True)
             else:  # 'neutral'
-                st.markdown("<h3 style='color: black;'>Thank you for your feedback! We are constantly working to improve our service.</h3>", unsafe_allow_html=True)
+                st.markdown("<h3 style='color: grey;'>Thank you for your feedback! We are constantly working to improve our service.</h3>", unsafe_allow_html=True)
 
         except Exception as e:
             st.error(f"Error: {e}")
