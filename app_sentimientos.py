@@ -16,7 +16,7 @@ st.set_page_config(
 st.image('risk_score.jpg', width=300)  # Tamaño más grande, ajustado a 300px de ancho
 
 # Texto con el nombre del creador debajo de la imagen, más pequeño y alineado a la izquierda
-st.markdown("<h5 style='color: #888;'>   Created by Álvaro Gamundi</h5>", unsafe_allow_html=True)
+st.markdown("<h5 style='color: #888;'>                                         Created by Álvaro Gamundi</h5>", unsafe_allow_html=True)
 
 # Título de la app (más grande y llamativo) justo debajo de la imagen
 st.markdown("<h1 style='text-align: center; color: #5F6368;'>Flight Experience Feedback Analyzer</h1>", unsafe_allow_html=True)
